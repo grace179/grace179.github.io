@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +11,153 @@
     <script src="main.js" defer></script>
 </head>
 <body>
-    
+    <section id="navbar">
+        <div class="navbar__logo">
+            <i class="fas fa-laptop"></i>
+            <a href="#">Portfolio</a>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__menu__item" data-link="#home">Home</li>
+            <li class="navbar__menu__item" data-link="#skills">Skills</li>
+            <li class="navbar__menu__item" data-link="#work">Work</li>
+            <li class="navbar__menu__item" data-link="#contact"> Contact</li>
+        </ul>
+        <button class="navbar__toggle-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </section>
+
+    <section id="home" class="center">
+        <img src="imgs/profile.jpg" alt="carrie's profile photo" class="home__profile"/>
+        <h1 class="home__title">Thank you for visiting</h1>
+        <h3 class="home__description">a constantly learning developer</h3>
+        <button class="home__btn">Contact me</button>
+    </section>
+    <section id="about"></section>
+
+    <section id="skills" class="center max-size">
+        <h1>Skills</h1>
+        <h2>Skills&Attribute</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eaque quo voluptate, reprehenderit, ipsam inventore officia odio vel velit ab laboriosam? Rerum excepturi quod aperiam maiores, placeat earum quibusdam quis?</p>
+        <div class="skillset">
+            <div class="skillset__left">
+                <h3 class="skillset__title">Skills</h3>
+
+                <div class="skill__description">
+                    <span>HTML</span>
+                    <span>98%</span>    
+                </div>
+                <div class="skill__bar">
+                    <div class="skill__value" style="width:98%;"></div>
+                </div>
+
+                <div class="skill__description">
+                    <span>Css</span>
+                    <span>90%</span>
+                </div>
+                <div class="skill__bar">
+                    <div class="skill__value" style="width: 90%;"></div>
+                </div>
+                <div class="skill__description">
+                    <span>Javascript</span>
+                    <span>85%</span>
+                </div>
+                <div class="skill__bar">
+                    <div class="skill__value" style="width: 85%;"></div>
+                </div>
+                <div class="skill__description">
+                    <span>React</span>
+                    <span>70%</span>
+                </div>
+                <div class="skill__bar">
+                    <div class="skill__value" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skillset__right">
+                <div class="tools">
+                   <h3 class="skillset__title">Tools</h3>
+                    <li><span>visual Studio Code</span></li>
+                    <li><span>Atom</span></li>
+                    <li><span>Bracket</span></li>
+                    
+                </div>
+                <div class="etc">
+                    <h3 class="skillset__title">Etc</h3>
+                    <li><span>Git</span></li>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="work" class="center max-size">
+
+        <h1>My work</h1>
+        <h3>Projects</h3>
+        <div class="work__categories">
+            <button class="category__btn" data-filter="*">All <span class="category__count">6</span></button>
+            <button class="category__btn" data-filter="htmlcss">HTML&CSS<span class="category__count">3</span></button>
+            <button class="category__btn" data-filter="js">Javascript<span class="category__count">2</span></button>
+            <button class="category__btn" data-filter="react">React<span class="category__count">1</span></button>
+
+        </div>
+        <div class="work__projects">
+            <a href="#" class="project" target="blank" data-type="react">
+                <img src="imgs/projects/game.png" alt="game project" class="project__img">
+                <div class="project__description">
+                    <h4>Game project</h4>
+                    <span>Clone coding with HTML and CSS</span>
+                </div>
+            </a>
+
+            <a href="projects/shoppinglist/index.html" class="project" target="blank" data-type="js">
+                <img src="imgs/projects/shopping.png" alt="game project" class="project__img">
+                <div class="project__description">
+                    <h4>Shopping List</h4>
+                    <span>HTML<br>CSS<br>Javascript</span>
+                </div>
+            </a>
+            <a href="#" class="project" target="blank" data-type="js">
+                <img src="imgs/projects/game.png" alt="game project" class="project__img">
+                <div class="project__description">
+                    <h4>Game project</h4>
+                    <span>Clone coding with HTML and CSS</span>
+                </div>
+            </a>
+            <a href="#" class="project" target="blank" data-type="htmlcss">
+                <img src="imgs/projects/game.png" alt="game project" class="project__img">
+                <div class="project__description">
+                    <h4>Game project</h4>
+                    <span>Clone coding with HTML and CSS</span>
+                </div>
+            </a>
+            <a href="#" class="project" target="blank" data-type="htmlcss">
+                <img src="imgs/projects/game.png" alt="game project" class="project__img">
+                <div class="project__description">
+                    <h4>Game project</h4>
+                    <span>Clone coding with HTML and CSS</span>
+                </div>
+            </a>
+
+            <a href="#" class="project" target="blank" data-type="htmlcss">
+                <img src="imgs/projects/game.png" alt="game project" class="project__img">
+                <div class="project__description">
+                    <h4>Game project</h4>
+                    <span>Clone coding with HTML and CSS</span>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section id="contact" class="center">
+        <h1 class="contact__title">Contact me</h1>
+        <h2 class="contact__email">gracechoi179@gmail.com</h2>
+        <div class="contact__links">
+            <a href="https://github.com" target="blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+        <p class="contact__rights">2020 gracechoi - All rights reserved</p>
+    </section>
+    <button class="up-btn">
+        <i class="fas fa-arrow-alt-circle-up"></i>
+    </button>
 </body>
 </html>
