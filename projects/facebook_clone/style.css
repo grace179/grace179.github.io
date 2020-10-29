@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+button{
+
+    border: none;
+    background: transparent;
+}
+
+.icon{
+    display: inline-block;
+    margin-right:10px;
+    font-size: 25px;
+}
+
+.profile-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* Header */
+
+#header{
+    width: 100vw;
+    background-color: #4267B2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+#header .inner{
+    width: 1012px;
+    height: 42px;
+    margin: 0 auto;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .inner__left{
+    display: flex;
+    
+}
+
+#header .inner__logo{
+    color: #fff;
+    opacity: 1;
+}
+#header .inner__search-container{
+
+    width: 380px;
+    height: 23px;
+    background:  #fff;
+    position: relative;
+
+}
+
+#header .inner__search-container input{
+    outline: none;
+
+}
+#header .inner__left button{
+    position: absolute;
+    right: -5px;
+    padding: 4px 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#search{
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+#header .inner__right{
+    display: flex;
+    align-items: center;
+}
+
+#header .inner__profile{
+    display: flex;
+    align-items: center;
+}
+
+#header .inner__profile .profile-img{
+    margin-right: 5px;
+
+}
+#header .inner__text{
+    color: #fff;
+    padding-right: 10px;
+}
+
+#header .inner__right > div{
+    margin-left: 10px;
+    position: relative;
+}
+
+#header .inner__right > div:after{
+    content: '';
+    width: 1px;
+    height: 17px;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    margin-top: -9px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+
+#header .inner__right > div:last-child:after{
+    display: none;
+}
+
+.inner__right .icon{
+    opacity: 0.7;
+}
+
+.inner__right .icon:hover{
+    opacity: 1;
+}
+#header .bell{
+    position: relative;
+}
+
+#header .bell:before{
+    content: '1';
+    color: #fff;
+    background-color:#FA383E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    font-size: 10px;
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    z-index: 1000;
+}
