@@ -42,6 +42,11 @@ a{
 button{
     cursor: pointer;
 }
+
+img{
+	width: inherit;
+	height: inherit;
+}
 blockquote, q {
 	quotes: none;
 }
