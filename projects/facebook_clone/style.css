@@ -165,6 +165,9 @@ button{
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
     display: none;
 }
+#header .notice.visible{
+    display: block;
+}
 #header .fa-caret-up{
     position: absolute;
     top: -16px;
