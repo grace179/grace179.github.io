@@ -7,10 +7,11 @@
     <script src="https://kit.fontawesome.com/e0c52649ab.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="grid.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="container">
+    <section id="container">
 
         <header id="header">
             <div class="inner">
@@ -52,107 +53,6 @@
                         <a href="#" class="icon bell">
                             <i class="fas fa-bell"></i>
                         </a>
-                        <div class="notice">
-                            <i class="fas fa-caret-up"></i>
-                            <h3>알림</h3>
-                            <ul>
-                                <li><a href="#">
-                                    <div class="profile-img">
-                                        <img src="imgs/user_profile.png" alt="user profile image">
-                                        <!-- <i class="fas fa-user-circle"></i> -->
-                                    </div>
-                                    <div>
-                                        <span class="name">carrie</span>
-                                        <span>님이 댓글을 남겼습니다.</span>
-                                        <div class="time">1시간 </div>
-                                    </div>
-                                </a></li>
-
-                                <li><a href="#">
-                                    <div class="profile-img">
-                                        <img src="imgs/user_profile.png" alt="user profile image">
-                                        <!-- <i class="fas fa-user-circle"></i> -->
-                                    </div>
-                                    <div>
-                                        <span class="name">carrie</span>
-                                        <span>님이 댓글을 남겼습니다.</span>
-                                        <div class="time">1시간 </div>
-                                    </div>
-                                </a></li>
-
-                                <li><a href="#">
-                                    <div class="profile-img">
-                                        <img src="imgs/user_profile.png" alt="user profile image">
-                                        <!-- <i class="fas fa-user-circle"></i> -->
-                                    </div>
-                                    <div>
-                                        <span class="name">carrie</span>
-                                        <span>님이 댓글을 남겼습니다.</span>
-                                        <div class="time">1시간 </div>
-                                    </div>
-                                </a></li>
-
-                                <li><a href="#">
-                                    <div class="profile-img">
-                                        <img src="imgs/user_profile.png" alt="user profile image">
-                                        <!-- <i class="fas fa-user-circle"></i> -->
-                                    </div>
-                                    <div>
-                                        <span class="name">carrie</span>
-                                        <span>님이 댓글을 남겼습니다.</span>
-                                        <div class="time">1시간 </div>
-                                    </div>
-                                </a></li>
-
-                                <li><a href="#">
-                                    <div class="profile-img">
-                                        <img src="imgs/user_profile.png" alt="user profile image">
-                                        <!-- <i class="fas fa-user-circle"></i> -->
-                                    </div>
-                                    <div>
-                                        <span class="name">carrie</span>
-                                        <span>님이 댓글을 남겼습니다.</span>
-                                        <div class="time">1시간 </div>
-                                    </div>
-                                </a></li>
-
-                                <li><a href="#">
-                                    <div class="profile-img">
-                                        <img src="imgs/user_profile.png" alt="user profile image">
-                                        <!-- <i class="fas fa-user-circle"></i> -->
-                                    </div>
-                                    <div>
-                                        <span class="name">carrie</span>
-                                        <span>님이 댓글을 남겼습니다.</span>
-                                        <div class="time">1시간 </div>
-                                    </div>
-                                </a></li>
-
-                                <li><a href="#">
-                                    <div class="profile-img">
-                                        <img src="imgs/user_profile.png" alt="user profile image">
-                                        <!-- <i class="fas fa-user-circle"></i> -->
-                                    </div>
-                                    <div>
-                                        <span class="name">carrie</span>
-                                        <span>님이 댓글을 남겼습니다.</span>
-                                        <div class="time">1시간 </div>
-                                    </div>
-                                </a></li>
-
-                                <li><a href="#">
-                                    <div class="profile-img">
-                                        <img src="imgs/user_profile.png" alt="user profile image">
-                                        <!-- <i class="fas fa-user-circle"></i> -->
-                                    </div>
-                                    <div>
-                                        <span class="name">carrie</span>
-                                        <span>님이 댓글을 남겼습니다.</span>
-                                        <div class="time">1시간 </div>
-                                    </div>
-                                </a></li>
-                            </ul>
-                        </div>
                     </div>
                     <div>
                         <a href="#" class="icon">
@@ -173,6 +73,64 @@
                 </div>
             </div>
         </header>
+
+        <div id="menus">
+            <div class="menu__profile">
+                <a href="index.html">
+                    <div class="profile-img"><img src="imgs/profile.jpg" alt="profile image" class="profile-img"></div>
+                    <span class="profile-name">Grace</span>
+                    <span class="more-icon">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </span>
+                </a>
+            </div>
+            <ul class="menu__list">
+
+                <li class="active">
+                    <a href="#">
+                        <span class="icon news-icon">
+                            <i class="far fa-newspaper"></i>
+                        </span>
+                        News
+                        <span class="more-icon">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="messenger.html">
+                        <span class="icon message-icon">
+                            <i class="fab fa-facebook-messenger"></i>                
+                        </span>
+                        Messenger
+                        <span class="more-icon">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="save.html">
+                        <span class="icon save-icon">
+                            <i class="fas fa-download"></i>
+                            <!-- <i class="fas fa-file-download"></i> -->
+                        </span>
+                        Save
+                        <span class="more-icon">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </span>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+
+        <section id="contents"></section>
+        
+        <div id="profile"></div>
+
+        <div id="people"></div>
     </section>
 </body>
 </html>

@@ -4,6 +4,8 @@
 }
 
 body{
+    background-color: #e9ebee;
+    color: #1d2129;
     font-family: 'Nanum Gothic', sans-serif;
 }
 
@@ -218,4 +220,57 @@ button{
     margin-top: 10px;
 }
 
+/* menus */
+#menus{
+    background-color: #fff;
+}
+#menus a{
+    display: flex;
+    align-items: center;
+
+}
+
+#menus .menu__profile{
+    padding: 5px 10px;
+    margin: 5px 0 10px 5px;
+}
+
+#menu .profile-name{
+    font-size: 1rem;
+}
+
+#menus .menu__list li{
+    padding: 5px 10px;
+    margin-bottom: 2px;
+    border: 1px solid transparent;
+    font-size: 0.8rem;
+}
+#menus .menu__list li.active{
+    background-color: #eee;
+    border: 1px solid #dddfe2;
+
+}
+
+#menus .menu__list li.active .more-icon{
+    display: block;
+}
+#menus .menu__list li:hover{
+    background-color: #eee;
+    border: 1px solid #dddfe2;
+}
+
+#menus .more-icon{
+    display: none;
+    margin-left: auto;
+    color: rgb(100, 95, 95);
+}
+
+#menus .menu__list li:hover .more-icon{
+    display: block;
+
+}
+
+#menus .message-icon{
+    color: rgb(62, 180, 226);
+}
 
