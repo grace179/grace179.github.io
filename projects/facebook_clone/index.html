@@ -126,7 +126,142 @@
             </ul>
         </div>
 
-        <section id="contents"></section>
+        <section id="contents">
+            <article class="create-box">
+                <h2 class="title">게시물 만들기</h2>
+                <div class="text-field">
+                    <form action="">
+                        <div class="top">
+                             <img src="imgs/profile.jpg" alt="" class="profile-img">
+                            <p>
+                                <textarea id="text-field" cols="30" rows="5" placeholder="무슨 생각을 하고 계신가요?" data-name="add"></textarea>
+                            </p>
+                        </div>
+
+                        <div class="middle">
+                            <canvas id="image-canvas" width="0" height="0"></canvas>
+                        </div>
+
+                        <div class="bottom">
+                            <input type="file" name="photo" id="file-photo" required>
+                            <div class="import-btn">
+                                <label for="file-photo" id="photo-label">
+                                    <span><i class="far fa-images"></i></span>사진/동영상
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="submit">
+                            <input type="submit" value="게시" id="submit-btn" disabled>
+                        </div>
+                    </form>
+                </div>
+            </article>
+
+            <article class="content">
+                <header>
+                    <div class="profile">
+                        <img src="imgs/user_profile.png" alt="" class="profile-img">
+                        <div>
+                            <div class="name"><a href="#">carrie</a></div>
+                            <div class="time">1시간</div>
+                        </div>
+
+                        <div class="more" data-name="more">
+                            <span class="more-icon">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </span>
+                            <ul class="hidden-menu">
+                                <li>
+                                    <button>친구요정</button>
+                                </li>
+                                <li>저장하기</li>
+                                <li><a href="edit.html">수정</a></li>
+                                <li><input type="button" value="삭제"></li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+
+                </header>
+                <div class="main-content">
+                    <p>제주도</p>
+                </div>
+
+                <div class="img-section">
+                    <a href="#">
+                        <img src="imgs/jeju.jpg" alt="jeju island image">
+                    </a>
+                </div>
+
+                <div class="ajax-field">
+                    <div class="like">
+                        <span>좋아요</span>
+                        <span class="like-count" id="like-count">1</span>개
+
+                    </div>
+
+                    <div class="comment">
+                        댓글
+                        <span class="comment-count">1</span>개
+                    </div>
+                </div>
+
+
+                <div class="btn-groups">
+                    <div class="like-btn" data-name="like">
+                        <span>
+                            <i class="far fa-thumbs-up"></i>
+                        </span>
+                        좋아요
+                    </div>
+                    <div class="comment-btn">
+                        <span>
+                            <i class="far fa-comment-alt"></i>
+                        </span>
+                        댓글
+                    </div>
+                </div>
+                
+                <div class="comments">
+                    <div class="id">
+                        <img src="imgs/profile.jpg" class="profile-img" alt="">
+                        <div class="comment-field">
+                            <div class="text-container">
+                                <div class="name">grace</div>
+                                <div class="text-field">어디야?</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="id">
+                        <img src="imgs/user_profile.png" class="profile-img" alt="">
+                        <div class="comment-field">
+                            <div class="text-container">
+                                <div class="name">cindy</div>
+                                <div class="text-field">잘 찍었네</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comment-input">
+                    <img src="imgs/profile.jpg" class="profile-img"  alt="">
+                    <div class="input-container">
+                        <label for="comment"></label>
+                        <input type="text" name="" id="comment" placeholder="댓글을 남겨주세요">
+                        <button class="send" data-name="send">
+                            <span>
+                                <i class="far fa-share-square"></i>
+                            </span>
+                        </button>
+                    
+                    </div>
+                </div>
+            </article>
+
+        </section>
         
         <div id="profile"></div>
 
