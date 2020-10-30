@@ -574,6 +574,7 @@ button{
 
 
 /* profile */
+
 #profile .myprofile{
     background-color: #fff;
     border-radius: 3px;
@@ -615,4 +616,46 @@ button{
 
 #profile .detail .message i{
  font-size: 12px;
+}
+
+/* people */
+#people{
+    background-color: #fff;
+    position: fixed;
+    right: 0;
+    top: 52px;
+    width: 200px;
+    height: 100vh;
+    border-left: 1px solid #dddfe2;
+
+}
+
+#people ul{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#people ul li{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#people ul li:hover{
+    background-color: #dddfe2;
+    box-shadow: 1px 0 0 #eaebed inset;
+}
+
+#people ul li img{
+    margin-right: 5px;
+
+}
+
+#people ul li .light{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin-left: auto;
+    background-color: #00A400;
 }
