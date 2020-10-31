@@ -502,11 +502,12 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .content .btn-groups div:hover{
     background-color: #e2e2e24b;
-
+    color: #1245aa;
 }
 
 .content .btn-groups i{
