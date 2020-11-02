@@ -75,7 +75,8 @@ h3{
 
 .navbar__menu__item:hover{
     border: 1px solid #fff;
-    background-color: #0066ff;
+    /* background-color: #0066ff; */
+    color: #0066ff;
 }
 
 .navbar__menu__item.active{
