@@ -56,6 +56,17 @@ document.addEventListener('scroll',()=>{
 const workCategories = document.querySelector(".work__categories");
 const categoryBtn = document.querySelector(".category__btn");
 const projects = document.querySelectorAll(".project");
+let currentItem = null;
+
+function activate(elem){
+    elem.classList.add('selected');
+    currentItem = elem;
+}
+
+function inactiavte(elem){
+    elem.classList.remove('selected');
+}
+activate(document.querySelector('.category__btn:first-child'));
 
 workCategories.addEventListener('click', (e)=>{
     const target = e.target;
@@ -63,25 +74,32 @@ workCategories.addEventListener('click', (e)=>{
 
     console.log(filter);
 
+    if(currentItem){
+        inactiavte(currentItem);
+    }
+
+    activate(target);
+
     projects.forEach(project => {
 
         const type = project.dataset.type;
         if(filter==="*" || filter === type){
             project.classList.remove('invisible');
             project.classList.add('animation');
-            
+
             setTimeout(()=>{
                 project.classList.remove('animation');
         
             },300);
+
             
         }else{
             project.classList.add('invisible');
         }
         // console.log(project.dataset.type);
     });
-
 })
+
 
 const upBtn = document.querySelector(".up-btn");
 upBtn.addEventListener('click',()=>{
