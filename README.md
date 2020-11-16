@@ -28,3 +28,8 @@
 * 순수자바스크립트로 구현한 해변가에 있는 쓰레기 줍기 게임
    - keyframe animation으로 쓰레기가 날아다니는 효과를 주었고 쓰레기를 클릭해서 다 주우면 성공하는 간단한 게임입니다.
    ![pickup-garbage](https://user-images.githubusercontent.com/72989367/99227162-35229e80-282e-11eb-8626-af92f587634f.gif)
+
+* Facebook Clone coding
+   - 
+   ![facebook1](https://user-images.githubusercontent.com/72989367/99228030-6a7bbc00-282f-11eb-84f4-042d97a728c9.gif)
+   - 반응형
