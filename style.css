@@ -57,6 +57,10 @@ h3{
 .navbar__logo{
     margin-left: 15px;
 }
+
+.navbar__logo:hover a{
+    color: #0066ff;
+}
 #navbar i{
     margin-right: 10px;
     position: relative;
@@ -88,7 +92,7 @@ h3{
     color: #fff;
     font-size: 28px;
     position: absolute;
-    top: 12px;
+    top: 14px;
     right: 0;
     display: none;
 }
@@ -212,6 +216,10 @@ h3{
 #work{
     margin: auto;
     margin-bottom: 150px;
+}
+
+#work p{
+    margin: 20px;
 }
 
 .work__categories{

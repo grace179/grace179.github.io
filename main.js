@@ -54,7 +54,6 @@ document.addEventListener('scroll',()=>{
 })
 
 const workCategories = document.querySelector(".work__categories");
-const categoryBtn = document.querySelector(".category__btn");
 const projects = document.querySelectorAll(".project");
 let currentItem = null;
 
