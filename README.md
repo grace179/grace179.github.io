@@ -6,8 +6,8 @@
 
 ### 기능
 #### Home
-* 메뉴를 클릭하면 해당영역으로 이동합니다.
-   ![portfolio-menu](https://user-images.githubusercontent.com/72989367/99224671-20440c00-282a-11eb-8198-a68855b9e103.gif)
+* 메뉴를 클릭하면 해당영역으로 이동합니다.    
+    ![portfolio-menu](https://user-images.githubusercontent.com/72989367/99224671-20440c00-282a-11eb-8198-a68855b9e103.gif)
 
 * 스크롤이 상단바를 지나가면 상단바 색깔이 진해지고 Home영역이 투명해집니다.
    ![portfolio scroll](https://user-images.githubusercontent.com/72989367/99223721-66986b80-2828-11eb-993c-815e3058886e.gif)
@@ -30,9 +30,9 @@
    ![pickup-garbage](https://user-images.githubusercontent.com/72989367/99227162-35229e80-282e-11eb-8626-af92f587634f.gif)
 
 * Facebook Clone coding
-   - grid layout
-    ![facebook1](https://user-images.githubusercontent.com/72989367/99228030-6a7bbc00-282f-11eb-84f4-042d97a728c9.gif)
-   
-   - 반응형
-    ![facebook-responsive](https://user-images.githubusercontent.com/72989367/99228479-03aad280-2830-11eb-9af4-dcecd2c15fb6.gif)
+   - grid layout.    
+   ![facebook1](https://user-images.githubusercontent.com/72989367/99228030-6a7bbc00-282f-11eb-84f4-042d97a728c9.gif)
+    
+   - 반응형.    
+   ![facebook-responsive](https://user-images.githubusercontent.com/72989367/99228479-03aad280-2830-11eb-9af4-dcecd2c15fb6.gif)
 
