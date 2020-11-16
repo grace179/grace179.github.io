@@ -5,7 +5,6 @@
 * 사용한 언어 : html, css, javascript
 
 ### 기능
-
 * 메뉴를 클릭하면 해당영역으로 이동합니다.
 ![portfolio-menu](https://user-images.githubusercontent.com/72989367/99224671-20440c00-282a-11eb-8198-a68855b9e103.gif)
 
@@ -14,3 +13,6 @@
 
 * home 영역을 지나가면 'up'버튼이 생기고 up을 클릭하면 최상단으로 이동하게 됩니다.
 ![portfolio-upbtn](https://user-images.githubusercontent.com/72989367/99224284-62208280-2829-11eb-9115-eaa279708b18.gif)
+
+* 'React'버튼을 누르면 react로 만든 프로젝트의 리스트가 뜹니다. 프로젝트 이미지를 클릭하면 사이트로 이동하게 됩니다.
+![category-btn](https://user-images.githubusercontent.com/72989367/99225270-1d95e680-282b-11eb-8b5d-bba037086055.gif)
