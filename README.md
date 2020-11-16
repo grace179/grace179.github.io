@@ -42,5 +42,7 @@
 
 
 ### 반응형    
-   - 사이즈가 줄어들면 메뉴바가 사라지고 토글버튼을 클릭하면 나타납니다.
+   - 사이즈가 줄어들면 메뉴바가 사라지고 토글버튼을 클릭하면 나타납니다.    
+    ![portfoilo-responsive](https://user-images.githubusercontent.com/72989367/99230625-ec211900-2832-11eb-8930-e2b1f81704b9.gif)
+   
    
