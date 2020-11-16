@@ -9,3 +9,4 @@
 ![portfolio scroll](https://user-images.githubusercontent.com/72989367/99223721-66986b80-2828-11eb-993c-815e3058886e.gif)
 
 * home 영역을 지나가면 'up'버튼이 생기고 up을 클릭하면 최상단으로 이동하게 됩니다.
+![portfolio-upbtn](https://user-images.githubusercontent.com/72989367/99224284-62208280-2829-11eb-9115-eaa279708b18.gif)
