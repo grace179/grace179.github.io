@@ -5,12 +5,15 @@ const navbarHeight = navbar.getBoundingClientRect().height;
 
 const navbarMenu = document.querySelector(".navbar__menu");
 const skills = document.querySelector("#skills");
+const navbarToggle = document.querySelector('.navbar__toggle');
 
 document.addEventListener('scroll',()=>{
     if(scrollY > navbarHeight){
         navbar.classList.add('navbar--dark');
+        navbarToggle.style.height = '52px';
     }else{
         navbar.classList.remove('navbar--dark');
+        navbarToggle.style.height = '72px';
     }
 });
 
