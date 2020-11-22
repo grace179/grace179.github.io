@@ -7,6 +7,35 @@ const navbarMenu = document.querySelector(".navbar__menu");
 const skills = document.querySelector("#skills");
 const navbarToggle = document.querySelector('.navbar__toggle');
 
+
+// Home__slider
+const SHOWING_CLASS = "showing";
+const firstSlide = document.querySelector(".slider__item:first-child");
+
+function slide(){
+    const currentSlide = document.querySelector(`.${SHOWING_CLASS}`);
+
+    if(currentSlide){
+        currentSlide.classList.remove(SHOWING_CLASS);
+        const nextSlide = currentSlide.nextElementSibling;
+
+        if(nextSlide){
+            nextSlide.classList.add(SHOWING_CLASS);
+        }else{
+            firstSlide.classList.add(SHOWING_CLASS);
+
+        }
+    
+    }else{
+        firstSlide.classList.add(SHOWING_CLASS);
+            
+    }
+    console.log(currentSlide);
+
+}
+
+setInterval(slide, 1500);
+
 document.addEventListener('scroll',()=>{
     if(scrollY > navbarHeight){
         navbar.classList.add('navbar--dark');
