@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
 </head>
+
 <body>
     <section id="navbar">
         <div class="navbar__logo">
@@ -20,19 +22,19 @@
             <li class="navbar__menu__item" data-link="#home">Home</li>
             <li class="navbar__menu__item" data-link="#skills">Skills</li>
             <li class="navbar__menu__item" data-link="#work">Work</li>
-            <li class="navbar__menu__item" data-link="#contact"> Contact</li>
+            <li class="navbar__menu__item" data-link="#contact">Contact</li>
         </ul>
         <div class="navbar__toggle">
             <button class="navbar__toggle-btn">
                 <i class="fas fa-bars"></i>
-            </button>    
+            </button>
         </div>
-        
+
     </section>
 
     <section id="home" class="center">
-        <img src="imgs/1.png" alt="carrie's profile photo" class="home__profile"/>
-<!--         
+        <img src="imgs/1.png" alt="carrie's profile photo" class="home__profile" />
+        <!--         
         <div id="slider">
             <div class="slider__item">
                 <img src="imgs/projects/youtube.png" alt="">
@@ -69,7 +71,7 @@
 
                 <div class="skill__description">
                     <span>HTML</span>
-                    <span>98%</span>    
+                    <span>98%</span>
                 </div>
                 <div class="skill__bar">
                     <div class="skill__value" style="width:98%;"></div>
@@ -103,7 +105,7 @@
                     <li><span>visual Studio Code</span></li>
                     <li><span>Atom</span></li>
                     <li><span>Bracket</span></li>
-                    
+
                 </div>
                 <div class="etc">
                     <h3 class="skillset__title">Etc</h3>
@@ -122,13 +124,23 @@
         <p>프로젝트 이미지를 클릭하면 해당 사이트로 이동됩니다.</p>
         <div class="work__categories">
             <button class="category__btn" data-filter="*">All <span class="category__count">6</span></button>
-            <button class="category__btn" data-filter="htmlcss">HTML&CSS<span class="category__count"></span></button>
+            <button class="category__btn" data-filter="nodejs">NodeJS<span class="category__count">1</span></button>
             <button class="category__btn" data-filter="js">Javascript<span class="category__count">3</span></button>
             <button class="category__btn" data-filter="react">React<span class="category__count">3</span></button>
 
         </div>
         <div class="work__projects">
-            <a href="https://github.com/grace179/SimpleDiary/tree/master/simple_diary" class="project" target="blank" data-type="react">
+            <a href="https://github.com/grace179/YouTube-Clone" class="project" target="blank"
+                data-type="nodejs">
+                <img src="imgs/projects/mytube.png" alt="youtube clone project" class="project__img">
+                <div class="project__description">
+                    <h4>MyTube</h4>
+                    <span>Youtube Clone<br>with<br>pug<br>NodeJS<br>Javascript</span>
+                </div>
+            </a>
+
+            <a href="https://github.com/grace179/SimpleDiary/tree/master/simple_diary" class="project" target="blank"
+                data-type="react">
                 <img src="imgs/projects/simple_diary.png" alt="simple diary project" class="project__img">
                 <div class="project__description">
                     <h4>SimpleDiary</h4>
@@ -189,4 +201,5 @@
         <i class="fas fa-arrow-alt-circle-up"></i>
     </button>
 </body>
+
 </html>
